@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'HKGrotesk-Semibold';
+    src: url('assets/Font/HKgrotesque/HKgrotesque/HKGrotesk-SemiBold.otf') format('opentype');
+};
+
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('assets/Font/LibreBaskerville/LibreBaskerville/LibreBaskerville-Regular.ttf') format('truetype');
+};
+
+@font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url('assets/Font/LibreBaskerville/LibreBaskerville/LibreBaskerville-Italic.ttf') format('truetype');
+};
+body{
+    margin: 0px;
+}
+.logo_top{
+    margin-left: 200px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 110px 0px 110px;
+}
+.meteo{
+    padding: 14px 16px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'HKGrotesk-Semibold';
+    color:#003B5C ;
+}
+button{
+    font-family: 'HKGrotesk-Semibold';
+}
+p{
+    font-family: 'LibreBaskerville-Regular';
+}
+h1{
+    font-family: 'LibreBaskerville-Regular';
+}
+article{
+    font-family: 'LibreBaskerville-Regular';
+}
+
+.main_nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+}
+span{
+    font-family: 'LibreBaskerville-Italic';
+}
+
+
+li{
+    margin-left: 38px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    column-gap: 22px;
+    margin-left: 46px;
+    margin-right: 46px;
+    font-family: 'LibreBaskerville-Regular';
+    margin-bottom: -80px;
+}
+.hero a{
+    color : tomato;
+}
+
+.watch_bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 12px;
+}
+.text_divider{
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 20px; 
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.text_divider:before{
+        content: '';
+        height: 1px;
+        background-color: silver;
+        flex-grow: 1;
+        margin-right: var(--text-divider-gap);
+    }
+
+    .text_divider:after {
+        content: '';
+        height: 1px;
+        background-color: silver;
+        flex-grow: 1;
+        margin-left: var(--text-divider-gap);
+    }
+.border{
+        font-family: fontHKBold;
+        border: solid 1px #E5DBD1;
+        box-shadow:  3px 2px 0px #E5DBD1;
+        color: #003B5C;
+        text-transform: uppercase;
+        font-size: 24px;
+        width: 170px;
+        text-align: center;
+        line-height: 38px;
+    }
+.car_content{
+    position: relative;
+    display: grid;
+    margin-left: 107px;
+    grid-template-columns: 493px;
+    text-align: center;
+    bottom: 60px;
+}
+.hero h1{
+    color: #003B5C;
+    font-family: 'LibreBaskerville-Italic';
+}
+
+.whisky_content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 408px;
+    text-align: center;
+    bottom: 60px;
+    margin-left: 56px;
+}
+.title1  {
+    position: relative;
+    top: -43px;
+    left: 107px;
+    width: 465px;
+    padding: 24px 29px;
+    font-size: 12px;
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+}  
+.title2 {
+    position: relative;
+    top: -43px;
+    left: 46px;
+    width: 370px;
+    padding: 24px 29px;
+    font-size: 12px;
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 20px ;
+    margin-left: 46px;
+    margin-right: 46px;
+}
+.grid p{
+    margin-top: 5px;
+    display: inline;
+}
+.grid a{
+    color: tomato;
+}
+img:hover {
+    transition: 0.2s ease-in;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.grid article{
+    display: grid;
+    width: 410px;
+    font-size: 22px;
+    height: 62px;
+    margin-top: 10px;
+}
+
+.newsletter{
+
+    background-color: #003B5C;
+    background-image: url(assets/img/FILIGRANE.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    height: 455px;
+
+} 
+.newsletter_content{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.newsletter h1{
+    font-size: 52px;
+    
+}
+.newsletter p{
+    font-size: 22px;
+}
+.newsletter button{
+    width :247px;
+    height: 50px;
+    font-size: 15px;
+    color: #003B5C;
+    background-color: white;
+    box-shadow: 5px 5px  tomato ;
+    margin-top: 40px;
+}
+footer{
+    margin-top: 20px ;
+    height: 395px;
+    background-color: tomato;
+}
+
+.footer_content{
+
+
+    color: white;
+}
+
+.top_footer{
+    margin: auto;
+    width: 1350px;
+    display: flex;
+    height: 295px;
+}
+
+.logo_footer{
+    margin: 60px auto;
+}
+
+.categories, 
+.about, 
+.join_us, 
+.social{
+    margin: 100px auto;
+}
+
+
+.categories, .about{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer_button{
+    transition: ease-out 0.2s;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: tomato;
+    border: white 1px solid;
+    box-shadow: 5px 5px tomato, 5px 5px 0 1px white;
+
+}
+
+.logo{
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+ 
+.fb, .insta, .twitter{
+    position: absolute;
+    top: -2px;
+    
+ }
+ 
+.fb{
+    top: -5px;
+    left: 0;
+}
+ 
+.insta{
+    right: 0;
+}
+
+.footer_divider,.footer_divider2{
+    border: 1px solid white;
+    width: 1276px;
+}
+
+.footer_divider2{
+    position: relative;
+    top: -5px;
+}
+
+.bottom_footer{ 
+    width: 1276px;
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+}
+
+.cgu, .copyright{
+    width: 1276px;
+}
+
+.cgu p{
+    text-align: left;
+}
+
+.copyright p{
+    text-align: right;
+}
+@media screen and (max-width: 380px){
+    .hero{
+        display: block;
+        margin: 0 auto;
+
+    }
+    .logo_top{
+        margin-left: 172px;
+        margin-bottom: 20px;
+    }
+    .meteo{
+        display: none;
+    }
+    .hero_car img{
+        margin-top: 20px;
+        width: 350px;
+    }
+    .grid{
+        display: block;
+        margin: 0 auto;
+    }
+    .grid img{
+        width: 370px;
+    }
+    .grid article{
+        width:335px;
+    }
+    .logo_top{
+        margin-left: 0px;
+    }
+    .watch_bar{
+        display: none;
+    }
+    .title1{
+        text-align: left;
+        width: 127px;
+        padding: 12px 13px
+    }
+    .car_content{
+        grid-template-columns: 368px;
+        margin-left: 0;
+    }
+    .hero_whisky img{
+        width: 350px
+
+    }
+    .nav_bar{
+        display: none;
+    }
+    .main_nav ul{
+        flex-direction: column;
+        margin-left: -75px;
+    }
+    hr{
+        display: none;
+    }
+    
+    .title2{
+        text-align: left;
+        width: 127px;
+        padding: 12px 7px;
+        left: 107px;
+    }
+    .whisky_content{
+        grid-template-columns: 368px;
+        margin-left: 0;
+
+    }
+    .newsletter{
+        width: 370px;
+    }
+    .section{
+        margin-bottom: 20px;
+    }
+    .newsletter_content{
+        width: 373px;
+    }
+    footer{
+        display: none;
+    }
+  
+}
+
+
+
+
